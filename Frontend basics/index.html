@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBeat</title>
+    <style>
+       body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(225deg, #cb2376, #26008f);
+        }
+
+        h1 {
+            text-align: center;
+            color: whitesmoke;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #34495E;
+        }
+
+        form {
+            background-color: whitesmoke;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        input[type="number"] {
+            border: 1px solid #BDC3C7;
+            width: 380px;
+            padding: 8px;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
+
+        input[type="checkbox"] {
+            margin: 8px 0 8px 5px;
+        }
+
+        input[type="radio"] {
+            margin: 35px 0 15px 5px;
+        }
+
+        button {
+            width: 100%;
+            margin: 5px 0;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            padding: 10px;
+            background-color: #3498DB;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registrati anche tu su CodeBeat! 🎶</h1>
+
+    <form onsubmit="alert('Registrazione effettuata!')">
+                
+        <h2>Inserisci i tuoi dati</h2>
+            <input type="text" placeholder="Nome" />
+            <input type="text" placeholder="Cognome" />
+            <input type="date" placeholder="Data di nascita"/>
+            <input type="email" placeholder="E-mail" />
+            <input type="number" placeholder="Numero di telefono">
+            <input type="password" placeholder="Password" />
+    
+        <h2>Gusti Musicali</h2>
+            <input type="checkbox"> Pop<br>
+            <input type="checkbox"> Rock<br>
+            <input type="checkbox"> Jazz<br>
+            <input type="checkbox"> Classica<br>
+            <input type="checkbox"> Hip-Hop<br>
+    
+        <input type="radio"> Accetto i Termini e Condizioni
+
+        <button type="submit">Invia registrazione</button>
+            
+    </form>
+</body>
+</html>
